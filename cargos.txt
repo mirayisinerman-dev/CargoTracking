@@ -1,0 +1,2 @@
+TR4162|Miray|nisa|Siirt|Urfa|PREPARING
+TR4576|Irmak|İrem|İstanbul|Kahramanmaraş|IN_TRANSIT
