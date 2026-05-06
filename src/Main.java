@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
-//Kargo teslim edildikten sonra dosyadan silinsin
+
 
 public class Main {
 
@@ -36,7 +36,6 @@ public class Main {
         }
     }
 
-    // ================= ADMIN =================
     static void adminPanel() {
 
         System.out.print("Enter Password: ");
@@ -123,7 +122,6 @@ public class Main {
         }
     }
 
-    // ================= CUSTOMER =================
     static void customerPanel() {
 
         System.out.print("Enter Tracking Number: ");
@@ -140,7 +138,6 @@ public class Main {
         System.out.println("Cargo not found.");
     }
 
-    // ================= FILE SAVE =================
     static void saveToFile() {
 
         try {
@@ -163,8 +160,6 @@ public class Main {
             System.out.println("Save error!");
         }
     }
-
-    // ================= FILE LOAD =================
     static ArrayList<Cargo> loadFromFile() {
 
         ArrayList<Cargo> list = new ArrayList<>();
